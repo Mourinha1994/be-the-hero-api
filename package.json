@@ -1,0 +1,14 @@
+{
+  "name": "be-the-hero-backend",
+  "version": "1.0.0",
+  "description": "Backend da aplicação Be The Hero",
+  "main": "src/index.js",
+  "author": "Erick Moura",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
