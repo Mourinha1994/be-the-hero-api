@@ -10,7 +10,7 @@ const SessionController = require('./controllers/SessionController');
 routes.post('/sessions', SessionController.create);
 
 routes.get('/ongs', OngController.index);
-routes.get('/ongs', OngController.create);
+routes.post('/ongs', OngController.create);
 
 routes.get('/incidents', IncidentController.index);
 routes.post('/incidents', IncidentController.create);
