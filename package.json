@@ -5,6 +5,10 @@
   "main": "src/index.js",
   "author": "Erick Moura",
   "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "crypto": "^1.0.1",
